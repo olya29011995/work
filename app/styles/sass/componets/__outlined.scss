@@ -1,0 +1,33 @@
+.outlined {
+    padding: 15px 90px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.4;
+    color: var(--white);
+    border: 2px solid var(--white);
+    transition: 0.2s;
+    background: transparent;
+}
+@media (max-width: 1200px) {
+    .outlined {
+        padding: 10px 60px;
+    }
+}
+@media (max-width: 768px) {
+    .outlined {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}
+
+.outlined:hover {
+    color: var(--coral);
+    border: 2px solid var(--coral);
+}
+
+.outlined:active {
+    color: var(--white);
+    background-color: var(--coral);
+    border: 0;
+} 

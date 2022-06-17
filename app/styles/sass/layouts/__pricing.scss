@@ -1,0 +1,73 @@
+
+/* Pricing */
+.pricing {
+    background: #F5F5F5;
+    padding: 0 0 50px;
+    
+    &__head {
+        padding-bottom: 59px;
+    
+        @media screen and (max-width: 768px) {
+            margin-bottom: 25px;
+    }
+    }
+    
+    
+    &__card_direction {
+        transform: translatey(-20px);
+    
+        @media screen and (max-width: 768px) {
+            transform: translateY(0);
+    }
+    }
+    
+    
+    &__desc {
+        background: #333333;
+        border: 2px solid #F5F5F5;
+        font-family: 'Open Sans';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        text-align: center;
+        text-transform: capitalize;
+        padding: 16px 0;
+        color: #FFFFFF;
+    
+    }
+    
+    &__price {
+        background: #333333;
+        border: 2px solid #F5F5F5;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        padding: 29px 0;
+        color: #FFFFFF;
+    }
+    
+    &__text {
+        background: #333333;
+        border: 2px solid #F5F5F5;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        padding: 12px 0;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    
+    &__list-menu {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        text-transform: capitalize;
+        border: 2px solid #F5F5F5;
+        color: #86878B;
+        padding: 12px 0;
+        background: #FFFFFF;
+    }
+}
+

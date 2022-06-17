@@ -1,0 +1,35 @@
+/* footer */
+.footer {
+    text-align: center;
+    padding-top: 50px;
+    background-color: var(--black);
+    
+    &__icons-list {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    &__icon-item {
+        margin-left: 40px;
+        list-style-type: none;
+    
+        @media (max-width: 1200px) {
+            width: 45px;
+            height: 45px;
+            margin-left: 60px;
+        }
+    }
+    
+    &__icon:hover path {
+        fill: var(--coral); 
+    }
+    
+    &__copyright {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: var(--grey);
+    }
+}
+

@@ -1,0 +1,30 @@
+.promo__modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 20%;
+    left: 25%;
+    width: 40%;
+    height: 67%;
+    overflow: auto;
+    background-color: #fff;
+}
+
+.modal-content {
+    margin: 10% 20%;
+    padding: 20px;
+    widows: 10%;
+}
+
+.closeBtn {
+    color: var(--coral);
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal__form-btn {
+    width: 100%;
+    padding: 20px 0;
+}

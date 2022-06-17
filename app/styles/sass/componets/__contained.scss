@@ -1,0 +1,21 @@
+.contained {
+    width: 100%;
+    min-height: 60px;
+    margin-top: auto;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.4px;
+    color: var(--white);
+    border-radius: 0px 0px 10px 10px;
+    background-color: var(--coral);
+    border: 0;
+}
+
+.contained:hover {
+    background-color: var(--coral-bg);
+}
+
+.contained:active {
+    background-color: var(--coral);
+}

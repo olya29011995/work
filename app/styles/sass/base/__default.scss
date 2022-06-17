@@ -1,0 +1,44 @@
+:root {
+    --gutter: 15px;
+    --black: #000000;
+    --coral: #EC7979;
+    --grey: #86878B;
+    --coral-bg: #ab4949;
+    --dark: #212121;
+    --white: #ffff;
+    --mobile-padding: 15px;
+    --content-width: 1170px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+    color: var(--dark);
+}
+
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--black);
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
